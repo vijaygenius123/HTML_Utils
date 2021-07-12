@@ -38,6 +38,14 @@
     cursor: pointer;
 }
 
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 @media (max-width: 768px){
     .navbar {

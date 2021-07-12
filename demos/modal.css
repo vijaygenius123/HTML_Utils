@@ -1,14 +1,6 @@
 :root{
     --modal-background: white;
 }
-section{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
 .modal-container {
     background-color: rgba(0,0,0,0.5);
@@ -19,7 +11,7 @@ section{
     height: 100vh;
     visibility: hidden;
     opacity:0;
-    animation: visibility 1s, opacity 0,5s;
+    transition: visibility 0s, opacity 0.5s;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -56,13 +48,15 @@ section{
     width: 100%;
     padding: 0.5em 1em;
     flex-grow: 1;
+    margin: 0 auto;
 }
 
 .modal .footer{
     width: 100%;
     padding: 0.5em 1em;
     display: flex;
-    align-items: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 768px) {

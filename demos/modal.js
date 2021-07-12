@@ -12,6 +12,7 @@ modalBtn.addEventListener('click', event => {
                 if (modal) {
                     const element = document.querySelector(modal);
                     element.classList.remove('active')
+
                 }
             })
         )
